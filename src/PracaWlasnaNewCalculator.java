@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NewCalculator {
+public class PracaWlasnaNewCalculator {
 
     public static void main(String[] args) {
 
