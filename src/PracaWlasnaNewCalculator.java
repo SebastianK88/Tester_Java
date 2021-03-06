@@ -4,23 +4,26 @@ public class PracaWlasnaNewCalculator {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Podaj pierwsza liczbe: ");
-        float firstNumber = scanner.nextInt();
-        System.out.println("Podaj druga liczbe: ");
-        float secondNumber = scanner.nextInt();
+        Scanner myscanner = new Scanner (System.in);
+        System.out.println("Wprowadz pierwsza liczbe: ");
+        int firstNumber = myscanner.nextInt();
+        System.out.println("Wprowadz druga liczbe: ");
+        int secondNumber = myscanner.nextInt();
 
-        float suma = firstNumber + secondNumber;
-        float roznica = firstNumber - secondNumber;
-        float iloczyn = firstNumber * secondNumber;
-        float iloraz = firstNumber / secondNumber;
-        float modulo = firstNumber % secondNumber;
+        int addition = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiplication = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
+        int modulo = firstNumber % secondNumber;
+        double power = Math.pow(firstNumber, secondNumber);
 
-        System.out.println("Dodawanie: " + suma);
-        System.out.println("Odejmowanie: " + roznica);
-        System.out.println("Mnozenie: " + iloczyn);
-        System.out.println("Dzielenie: " + iloraz);
+        System.out.println("Dodawanie: " + addition);
+        System.out.println("Odejmowanie: " + subtraction);
+        System.out.println("Mnozenie: " + multiplication);
+        System.out.println("Dzielenie: " + division);
         System.out.println("Modulo: " + modulo);
+        System.out.println("Potega: " + power);
 
     }
+
 }
