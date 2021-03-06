@@ -1,4 +1,6 @@
+import java.math.MathContext;
 import java.util.Scanner;
+import static java.lang.Math.*;
 
 public class PracaWlasnaNewCalculator {
 
@@ -15,7 +17,7 @@ public class PracaWlasnaNewCalculator {
         int multiplication = firstNumber * secondNumber;
         int division = firstNumber / secondNumber;
         int modulo = firstNumber % secondNumber;
-        double power = Math.pow(firstNumber, secondNumber);
+        double power = pow(firstNumber, secondNumber);
 
         System.out.println("Dodawanie: " + addition);
         System.out.println("Odejmowanie: " + subtraction);
