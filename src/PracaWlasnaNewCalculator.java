@@ -18,6 +18,8 @@ public class PracaWlasnaNewCalculator {
         int division = firstNumber / secondNumber;
         int modulo = firstNumber % secondNumber;
         double power = pow(firstNumber, secondNumber);
+        double sqrt1 = sqrt(firstNumber);
+        double sqrt2 = sqrt(secondNumber);
 
         System.out.println("Dodawanie: " + addition);
         System.out.println("Odejmowanie: " + subtraction);
@@ -25,7 +27,8 @@ public class PracaWlasnaNewCalculator {
         System.out.println("Dzielenie: " + division);
         System.out.println("Modulo: " + modulo);
         System.out.println("Potega: " + power);
+        System.out.println("Pierwiastek 2 stopnia z 1 liczby: " + sqrt1);
+        System.out.println("Pierwiastek 2 stopnia z 2 liczby: " + sqrt2);
 
     }
-
 }
