@@ -38,6 +38,7 @@ public class StudentChecker {
             students[i].podajNrIndexu();
             students[i].zalogujSie();
 
+
         }
     }
 }
