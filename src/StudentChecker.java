@@ -1,6 +1,8 @@
 // zadanie domowe - stworz 3 obiekty klasy student. przypisz wartosci do pol. stworz tablice i dodaj studentow do tablicy
 // przejdz przez studentow w tablicy i wywolaj wszystkie 4 metody z klasy Student
 
+import java.util.Scanner;
+
 public class StudentChecker {
 
     public static void main(String[] args) {
@@ -40,5 +42,7 @@ public class StudentChecker {
 
 
         }
+
+
     }
 }
