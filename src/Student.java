@@ -1,25 +1,25 @@
-public class Student { // klasa o nazwie Student - tej samej nazwie co plik
+public class Student {
 
-    public String imie; // tzw. pole o nazwie imie, nazwisko, nick itd
+    public String imie;
     public String nazwisko;
-    public String nick;
+    public String login;
     public String email;
-    public int nrIndexu;
+    public int nrIndex;
 
-    public void przedstawSie() { // to jest tak zwana metoda
+    public void przedstawSie() {
         System.out.println("Nazywam sie " + imie + " " + nazwisko);
     }
 
     public void zalogujSie() {
-        System.out.println("Loguje sie za pomoca: " + nick);
+        System.out.println("Loguje sie loginem: " + login);
     }
 
     public void podajNrIndexu() {
-        System.out.println("Moj nr indexu to: " + nrIndexu);
+        System.out.println("Moj numer indexu to: " + nrIndex);
     }
 
     public void podajEmail() {
-        System.out.println("Moj email to: " + email);
+        System.out.println("Moj adres email to: " + email);
     }
 
 }

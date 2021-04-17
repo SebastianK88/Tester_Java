@@ -347,6 +347,8 @@ public class Powtorka {
             System.out.println(lotto[i]);
         }
 
+        String imie = new String("Kasia");
+        String imie2 = "Magda";
 
     }
 }

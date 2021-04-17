@@ -1,17 +1,16 @@
-public class Auto {
+public class Auto2 {
 
     public String marka;
     public String model;
-    public Integer rok;
-    public Integer przebieg;
+    public int rok;
+    public int przebieg;
 
-
-    public void jedz () {
+    public void jedz() {
         System.out.println("Jedz!");
     }
 
-    public void stoj() {
-        System.out.println("Stoj!");
+    public void hamuj() {
+        System.out.println("Hamuj!");
     }
 
     public void info() {
@@ -20,8 +19,6 @@ public class Auto {
         System.out.println("Model: " + model);
         System.out.println("Rok produkcji: " + rok);
         System.out.println("Przebieg: " + przebieg);
-
     }
-
 
 }

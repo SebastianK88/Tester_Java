@@ -2,33 +2,31 @@ public class AutoTest {
 
     public static void main(String[] args) {
 
-        Auto mercedes = new Auto(); // tzw OBIEKT klasy AUTO ktory ma zmienna typu Auto o nazwie mercedes
+        Auto mercedes = new Auto();
         mercedes.marka = "Mercedes";
-        mercedes.model = "Klasa S";
-        mercedes.rok = 2020;
-        mercedes.przebieg = 1000;
+        mercedes.model = "X5";
+        mercedes.rok = 2015;
+        mercedes.przebieg = 20000;
 
         mercedes.jedz();
-        mercedes.hamuj();
+        mercedes.stoj();
         mercedes.info();
 
+        Auto skoda = new Auto();
+        skoda.marka = "Skoda";
+        skoda.model = "Fabia";
+        skoda.rok = 2010;
+        skoda.przebieg = 120000;
 
-        Auto audi = new Auto();
-        audi.marka = "Audi";
-        audi.model = "A4";
-        audi.rok = 2010;
-        audi.przebieg = 100000;
+        skoda.jedz();
+        skoda.stoj();
+        skoda.info();
 
-        audi.jedz();
-        audi.hamuj();
-        audi.info();
+        Auto fiat = new Auto();
+        fiat.marka = "Fiat";
+        fiat.rok = 2000;
 
-
-        Auto noName = new Auto();
-
-        noName.jedz();
-        noName.hamuj();
-        noName.info(); // wyswietli komunikat null dla marki i modelu bo String oraz 0 dla roku i przebiegu bo int. jesli napiszemy Intiger to bedzie tez null
+        fiat.info();
 
 
     }
