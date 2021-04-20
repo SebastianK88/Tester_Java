@@ -22,6 +22,7 @@ public class ObiektyPowtorka {
     }
     public void modulo() {
         System.out.println("Wynik modulo to: " + modulo);
+
     }
 
 }
